@@ -1,0 +1,16 @@
+.page-container{
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./assets/bgTree2.jpg");
+    background-size: cover; /* Ensures the image covers the container */
+    background-position:0px -600px; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed during scroll */
+}
+
+
+

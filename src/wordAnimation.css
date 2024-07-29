@@ -1,0 +1,15 @@
+@keyframes slideLeft {
+    from {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+}
+
+.word-animation h1{
+    color: rgb(223, 159, 159);
+    animation: slideLeft 5s ease-out;
+}

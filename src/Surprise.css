@@ -1,0 +1,234 @@
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.surprise-page-container {
+  background-image: url("./assets/bgTree.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:0px -600px;
+  background-attachment: fixed; 
+  height: max-content;
+  padding-top: 10px;
+  
+}
+
+.surprise-letter-head {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  padding: 10px;
+  width: 95%;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: rgb(48, 68, 99,0.8);
+  color: rgb(243, 148, 160);
+  box-shadow: 0px 0px 10px rgb(132, 132, 132);
+  
+}
+
+.name-tag {
+  border-radius: 100px;
+  background-color: rgb(38, 38, 39);
+  color: rgb(243, 148, 160);
+  padding: 15px;
+  margin: 0px;
+  position: absolute;
+  left: 10%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(86, 86, 86);
+  margin-bottom: 10px;
+  width: 60%;
+  margin-left: 10%;
+  box-shadow: 0px 0px 10px rgb(43, 43, 43);
+  animation:fadeIn 1s ease-in-out;
+  
+}
+
+.info-label {
+  color: rgb(243, 148, 160);
+  padding: 10px;
+  height: inherit;
+  background-color: rgb(38, 38, 39);
+  margin: 0px;
+  align-content: center;
+  width: 40%;
+}
+
+.info-tag {
+  border-radius: 100px;
+  background-color: rgb(38, 38, 39);
+  color: rgb(243, 148, 160);
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  margin-left: 10%;
+  
+}
+
+.elipse-container {
+  position: relative;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.elipse {
+  border-radius: 100px;
+  background-color: pink;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  
+}
+
+.us-container {
+  position: relative;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 2s ease-in-out;
+  
+}
+
+.us-card {
+  box-shadow: 0px 0px 10px rgb(203, 203, 203);
+  border-radius: 10px;
+  width: 80%;
+  height: max-content;
+  padding: 10px;
+  background-color: rgb(240, 229, 184,0.5);
+  color: rgb(80, 80, 80);
+  
+}
+
+.us-card h1 {
+  background-color: rgb(48, 68, 99);
+  color: rgb(243, 148, 160);
+  text-align: center;
+  border-radius: 100px;
+  
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.section-1-card {
+  box-shadow: 0px 0px 10px black;
+  width: 80%;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgb(240, 229, 184,0.8);
+}
+
+.section-1-label {
+  background-color: rgb(48, 68, 99);
+  color: rgb(243, 148, 160);
+  text-align: center;
+  align-content: center;
+  width: 20%;
+  margin: 0px;
+}
+
+.section-2-card {
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+  width: 80%;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  background-color: rgb(240, 229, 184,0.8);
+}
+
+.section-3-card{
+  box-shadow: 0px 0px 10px black;
+  border-radius: 10px;
+  width: 80%;
+  height: fit-content;
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  background-color: rgb(243, 148, 160);
+  color: rgb(255, 255, 255);
+}
+
+.card-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.card-item {
+  background-color: rgb(77, 155, 249);
+  border-radius: 10px;
+  width: 25%;
+  box-shadow: 0px 0px 10px grey;
+  margin: 10px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.card-item p {
+  text-align: center;
+  align-self: center;
+}
+
+.text-start {
+  position: relative;
+  font-family: "lucida handwriting";
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(48, 68, 99,0.8);
+  color: rgb(243, 148, 160);
+  text-align: center;
+  padding: 1px;
+  box-shadow: 0px 0px 10px rgb(168, 168, 168);
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-out ;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.button-hope{
+  width: 20%;
+  height: 50px;
+  background-color: black;
+  color: pink;
+  border: none;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.button-hope:hover{
+    
+  background-color: white;
+  transform: scale(1.1);
+}
+
